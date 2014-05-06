@@ -1,5 +1,5 @@
 <package>
-    <name>robot_pose_ekf</name>
+    <name>robot_pose_ekf_cp</name>
     <version>1.11.4</version>
     <description>
 
