@@ -133,7 +133,7 @@ private:
   bool odom_initializing_, imu_initializing_, vo_initializing_, gps_initializing_;
   double timeout_;
   MatrixWrapper::SymmetricMatrix odom_covariance_, imu_covariance_, vo_covariance_, gps_covariance_;
-  bool debug_, self_diagnose_;
+  bool debug_, self_diagnose_, publish_tf_;
   std::string output_frame_, base_footprint_frame_, tf_prefix_;
 
   // log files for debugging
